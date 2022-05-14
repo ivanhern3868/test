@@ -1,0 +1,291 @@
+/* Write your CSS below */
+
+@font-face {font-family: 'SharpSans_No1-black';src: url('../assets_from_client/fonts/SharpSans-No1-Black.otf') format('opentype');}
+@font-face {font-family: 'SharpSans_No1-Medium';src: url('../assets_from_client/fonts/SharpSans-No1-Medium.otf') format('opentype');}
+::placeholder {text-transform: capitalize;}
+h1,h2 {font-family: 'SharpSans_No1-black';text-transform: uppercase;position: relative;}
+h1 {margin-top: 10%;text-align: center;}
+html, body {font-family: 'SharpSans_No1-Medium';color: white;}
+body{background-image: url(../assets_from_client/assets/login-bg.jpg);}
+#app {display:flex;width: 100%; height: 90%;flex-direction: column;}
+.actions button:hover {background-color: white;color: black;}
+.actions button:focus {background-color: #5AC8E0;;color: white;}  
+.invalid {border: 1px solid red;outline-color: red;}
+
+
+/*Mobile View*/
+@media only screen and (max-width: 426px)
+{
+      .actions {margin-left: 5%;margin-bottom: -0.4%;}
+
+      .actions button {
+        background-color: #8a8a8a;
+        height: 40px;
+        border-radius: 8px;
+        margin-bottom: -8px;
+        font-family: 'SharpSans_No1-black';
+        text-transform: uppercase;
+        border-color: transparent;
+        color: rgb(0, 0, 0);
+      }
+
+      h2:before {
+        content:url(../assets_from_client/assets/WSJ_Horizontal.png);
+        transform: scale(.35);
+        position: absolute;
+        top: -300%;
+        left: -175px;
+      }
+
+      .register-form {
+        background-color: #111111;
+        width: 90%;
+        height: 85%;
+        margin-left: 5%;
+        position: relative;
+        padding-left: 10%;
+        padding-right: 10%;
+        padding-top: 20%;
+        border:thin solid #5AC8E0;
+      }
+
+      .register-form:before {
+        content: " ";
+        position: absolute;
+        z-index: 1;
+        bottom:0;
+        right:0;
+        border-bottom: 65px solid #5AC8E0;
+        border-left: 120px solid transparent;
+      }
+
+      .signin-form {
+        background-color: #111111;
+        width: 90%;
+        height: 55%;
+        margin-left: 5%;
+        position: relative;
+        padding-left: 10%;
+        padding-right: 10%;
+        padding-top: 20%;
+        border:thin solid #5AC8E0;
+      }
+
+      .signin-form:before {
+        content: " ";
+        position: absolute;
+        z-index: 1;
+        bottom:0;
+        right:0;
+        border-bottom: 65px solid #5AC8E0;
+        border-left: 120px solid transparent;
+      }
+
+      label {width: 275px;display:inline-block;}
+      input {width: 100%;height: 30px;margin-bottom: 13px;}
+
+      input[type=submit] {
+        margin-top: 15px;
+        position: relative;
+        left: 10%;
+        width: 75%;
+        height: 50px;
+        background-color: white;
+        color: black;
+        font-family: 'SharpSans_No1-black';
+        text-transform: uppercase; 
+      }
+}
+/*End of Mobile View*/
+
+/*Tablet View*/
+@media only screen and (min-width: 427px) and (max-width: 800px) 
+{
+        .actions {
+        margin-left: 5%;
+        margin-bottom: -0.4%;}
+
+      .actions button {
+        background-color: #8a8a8a;
+        height: 40px;
+        border-radius: 8px;
+        margin-bottom: -8px;
+        font-family: 'SharpSans_No1-black';
+        text-transform: uppercase;
+        border-color: transparent;
+        color: rgb(0, 0, 0);
+      }
+
+      h2:before {
+        content:url(../assets_from_client/assets/WSJ_Horizontal.png);
+        transform: scale(.75);
+        position: absolute;
+        top: -100px;
+        left: 30px;
+      }
+
+      .register-form {
+        background-color: #111111;
+        width: 90%;
+        height: 80%;
+        margin-left: 5%;
+        position: relative;
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-top: 125px;
+        border:thin solid #5AC8E0;
+      }
+
+      .register-form:before {
+        content: " ";
+        position: absolute;
+        z-index: 1;
+        bottom:0;
+        right:0;
+        border-bottom: 65px solid #5AC8E0;
+        border-left: 120px solid transparent;
+      }
+
+      .signin-form {
+        background-color: #111111;
+        width: 90%;
+        height: 60%;
+        margin-left: 5%;
+        position: relative;
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-top: 125px;
+        border:thin solid #5AC8E0;
+      }
+
+      .signin-form:before {
+        content: " ";
+        position: absolute;
+        z-index: 1;
+        bottom:0;
+        right:0;
+        border-bottom: 65px solid #5AC8E0;
+        border-left: 120px solid transparent;
+      }
+
+      label {
+        width: 275px;
+        display:inline-block;
+      }
+
+      input {
+        width: 300px;
+        height: 30px;
+        margin-bottom: 15px;
+      }
+
+      input[type=submit] {
+        margin-top: 15px;
+        position: relative;
+        left: 40%;
+        width: 150px;
+        height: 50px;
+        background-color: white;
+        color: black;
+        font-family: 'SharpSans_No1-black';
+        text-transform: uppercase; 
+      }
+}
+/*End of Tablet View*/
+
+/*Desktop View*/
+@media only screen and (min-width: 801px) 
+{
+      .actions {
+        margin-top: 10px;
+        margin-left: 30%;
+      }
+
+      .actions button {
+        background-color: #8a8a8a;
+        height: 40px;
+        border-radius: 8px;
+        margin-bottom: -8px;
+        font-family: 'SharpSans_No1-black';
+        text-transform: uppercase;
+        border-color: transparent;
+        color: rgb(0, 0, 0);
+      }
+
+      h2:before {
+        content:url(../assets_from_client/assets/WSJ_Horizontal.png);
+        transform: scale(.8);
+        position: absolute;
+        top: -110px;
+        left: 8%;
+      }
+
+
+      .register-form {
+        background-color: #111111;
+        width: 40.5%;
+        height: 60%;
+        margin-left: 30%;
+        position: relative;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 125px;
+        border:thin solid #5AC8E0;
+      }
+
+      .register-form:before {
+        content: " ";
+        position: absolute;
+        z-index: 1;
+        bottom:0;
+        right:0;
+        border-bottom: 65px solid #5AC8E0;
+        border-left: 120px solid transparent;
+      }
+
+      .signin-form {
+        background-color: #111111;
+        width: 35%;
+        height: 55%;
+        margin-left: 30%;
+        position: relative;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 125px;
+        border:thin solid #5AC8E0;
+      }
+
+      .signin-form:before {
+        content: " ";
+        position: absolute;
+        z-index: 1;
+        bottom:0;
+        right:0;
+        border-bottom: 65px solid #5AC8E0;
+        border-left: 120px solid transparent;
+      }
+
+      label {
+        display:inline-block;
+        width: 21%;
+        padding-bottom: 15px;
+      }
+
+      input {
+        width: 78%;
+        height: 30px;
+      }
+
+      input[type=submit] {
+        margin-top: 15px;
+        position: relative;
+        left: 240px;
+        width: 150px;
+        height: 50px;
+        background-color: white;
+        color: black;
+        font-family: 'SharpSans_No1-black';
+        text-transform: uppercase; 
+      }
+}
+/*End of Desktop View*/
