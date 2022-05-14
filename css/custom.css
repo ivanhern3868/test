@@ -92,7 +92,7 @@ body{background-image: url(../assets_from_client/assets/login-bg.jpg);}
       .register-form {
         background-color: #111111;
         width: 85%;
-        height: 77%;
+        height: 600px;
         position: absolute;
         top: 19.5%;
         left: 0;
