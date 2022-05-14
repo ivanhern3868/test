@@ -55,7 +55,38 @@ body{background-image: url(../assets_from_client/assets/login-bg.jpg);}
       }
 
       .feedback h2:before {
-        content:none;
+        content:url(../assets_from_client/assets/WSJ_Horizontal.png);
+        transform: scale(.4);
+        position: absolute;
+        top: -260%;
+        left: -75%;
+        margin-top: -4%;
+        margin-bottom: 15%;
+      }
+
+      .feedback {
+        background-color: #111111;
+        width: 85%;
+        height: 47%;
+        position: absolute;
+        top: 19.5%;
+        left: 0;
+        right: 0;
+        margin: auto;
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-top: 20%;
+        border:thin solid #5AC8E0;
+      }
+
+      .feedback:before {
+        content: " ";
+        position: absolute;
+        z-index: 1;
+        bottom:0;
+        right:0;
+        border-bottom: 65px solid #5AC8E0;
+        border-left: 120px solid transparent;
       }
 
       .register-form {
@@ -158,20 +189,52 @@ body{background-image: url(../assets_from_client/assets/login-bg.jpg);}
         content:url(../assets_from_client/assets/WSJ_Horizontal.png);
         transform: scale(.7);
         position: absolute;
-        top: -110px;
+        top: -300%;
         left: -15%;
+        margin-top: -4%;
       }
 
       .signin-form h2:before {
         content:url(../assets_from_client/assets/WSJ_Horizontal.png);
         transform: scale(.7);
         position: absolute;
-        top: -110px;
+        top: -300%;
         left: -15%;
+        margin-top: -4%;
       }
 
       .feedback h2:before {
-        content:none;
+        content:url(../assets_from_client/assets/WSJ_Horizontal.png);
+        transform: scale(.7);
+        position: absolute;
+        top: -300%;
+        left: -15%;
+        margin-top: -4%;
+      }
+
+      .feedback {
+        background-color: #111111;
+        width: 70%;
+        height: 45%;
+        position: absolute;
+        top: 23%;
+        left: 0;
+        right: 0;
+        margin: auto;
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-top: 15%;
+        border:thin solid #5AC8E0;
+      }
+
+      .feedback:before {
+        content: " ";
+        position: absolute;
+        z-index: 1;
+        bottom:0;
+        right:0;
+        border-bottom: 65px solid #5AC8E0;
+        border-left: 120px solid transparent;
       }
 
       .register-form {
@@ -183,9 +246,9 @@ body{background-image: url(../assets_from_client/assets/login-bg.jpg);}
         left: 0;
         right: 0;
         margin: auto;
-        padding-left: 40px;
-        padding-right: 40px;
-        padding-top: 125px;
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-top: 15%;
         border:thin solid #5AC8E0;
       }
 
@@ -208,9 +271,9 @@ body{background-image: url(../assets_from_client/assets/login-bg.jpg);}
         left: 0;
         right: 0;
         margin: auto;
-        padding-left: 40px;
-        padding-right: 40px;
-        padding-top: 125px;
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-top: 15%;
         border:thin solid #5AC8E0;
       }
 
@@ -285,7 +348,33 @@ body{background-image: url(../assets_from_client/assets/login-bg.jpg);}
       }
 
       .feedback h2:before {
-        content:none;
+        content:url(../assets_from_client/assets/WSJ_Horizontal.png);
+        transform: scale(.7);
+        position: absolute;
+        top: -110px;
+        left: -5%;
+      }
+
+      .feedback {
+        background-color: #111111;
+        width: 30%;
+        height: 45%;
+        margin-left: 35%;
+        position: relative;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 125px;
+        border:thin solid #5AC8E0;
+      }
+
+      .feedback:before {
+        content: " ";
+        position: absolute;
+        z-index: 1;
+        bottom:0;
+        right:0;
+        border-bottom: 65px solid #5AC8E0;
+        border-left: 120px solid transparent;
       }
 
       .register-form {
