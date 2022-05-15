@@ -36,30 +36,30 @@ body{background-image: url(../assets_from_client/assets/login-bg.jpg);}
 
       .register-form h2:before {
         content:url(../assets_from_client/assets/WSJ_Horizontal.png);
-        transform: scale(.4);
+        transform: scale(.5);
         position: absolute;
         top: -260%;
-        left: -75%;
+        left: -40%;
         margin-top: -4%;
         margin-bottom: 15%;
       }
 
       .signin-form h2:before {
         content:url(../assets_from_client/assets/WSJ_Horizontal.png);
-        transform: scale(.4);
+        transform: scale(.5);
         position: absolute;
         top: -260%;
-        left: -75%;
+        left: -40%;
         margin-top: -4%;
         margin-bottom: 15%;
       }
 
       .feedback h2:before {
         content:url(../assets_from_client/assets/WSJ_Horizontal.png);
-        transform: scale(.4);
+        transform: scale(.5);
         position: absolute;
         top: -260%;
-        left: -75%;
+        left: -40%;
         margin-top: -4%;
         margin-bottom: 15%;
       }
