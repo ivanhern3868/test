@@ -240,7 +240,7 @@ body{background-image: url(../assets_from_client/assets/login-bg.jpg);}
       .register-form {
         background-color: #111111;
         width: 70%;
-        height: 70%;
+        height: 68%;
         position: absolute;
         top: 23%;
         left: 0;
@@ -265,7 +265,7 @@ body{background-image: url(../assets_from_client/assets/login-bg.jpg);}
       .signin-form {
         background-color: #111111;
         width: 70%;
-        height: 52%;
+        height: 50%;
         position: absolute;
         top: 23%;
         left: 0;
@@ -358,7 +358,7 @@ body{background-image: url(../assets_from_client/assets/login-bg.jpg);}
       .feedback {
         background-color: #111111;
         width: 30%;
-        height: 45%;
+        height: 50%;
         margin-left: 35%;
         position: relative;
         padding-left: 30px;
@@ -380,7 +380,7 @@ body{background-image: url(../assets_from_client/assets/login-bg.jpg);}
       .register-form {
         background-color: #111111;
         width: 30%;
-        height: 60%;
+        height: 70%;
         margin-left: 35%;
         position: relative;
         padding-left: 30px;
