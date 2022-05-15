@@ -13,8 +13,8 @@ body{background-image: url(../assets_from_client/assets/login-bg.jpg);}
 .invalid {border: 1px solid red;outline-color: red;}
 
 
-/*Mobile View*/
-@media only screen and (max-width: 426px)
+/*Mobile View for devices between 420px and 425px wide*/
+@media only screen and (min-width: 420px) and (max-width: 426px)
 {
       .actions {
         position: absolute;
@@ -39,7 +39,7 @@ body{background-image: url(../assets_from_client/assets/login-bg.jpg);}
         transform: scale(.5);
         position: absolute;
         top: -260%;
-        left: -40%;
+        left: -50%;
         margin-top: -4%;
         margin-bottom: 15%;
       }
@@ -49,7 +49,7 @@ body{background-image: url(../assets_from_client/assets/login-bg.jpg);}
         transform: scale(.5);
         position: absolute;
         top: -260%;
-        left: -40%;
+        left: -50%;
         margin-top: -4%;
         margin-bottom: 15%;
       }
@@ -59,18 +59,18 @@ body{background-image: url(../assets_from_client/assets/login-bg.jpg);}
         transform: scale(.5);
         position: absolute;
         top: -260%;
-        left: -40%;
+        left: -50%;
         margin-top: -4%;
         margin-bottom: 15%;
       }
 
       .feedback {
         background-color: #111111;
-        width: 85%;
+        width: 80%;
         height: 47%;
         position: absolute;
         top: 19.5%;
-        left: 0;
+        left: -5%;
         right: 0;
         margin: auto;
         padding-left: 5%;
@@ -91,11 +91,11 @@ body{background-image: url(../assets_from_client/assets/login-bg.jpg);}
 
       .register-form {
         background-color: #111111;
-        width: 85%;
+        width: 80%;
         height: 600px;
         position: absolute;
         top: 19.5%;
-        left: 0;
+        left: -5%;
         right: 0;
         margin: auto;
         padding-left: 5%;
@@ -116,11 +116,11 @@ body{background-image: url(../assets_from_client/assets/login-bg.jpg);}
 
       .signin-form {
         background-color: #111111;
-        width: 85%;
+        width: 80%;
         height: 52%;
         position: absolute;
         top: 19.5%;
-        left: 0;
+        left: -5%;
         right: 0;
         margin: auto;
         padding-left: 5%;
