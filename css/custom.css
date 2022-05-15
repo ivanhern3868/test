@@ -13,8 +13,8 @@ body{background-image: url(../assets_from_client/assets/login-bg.jpg);}
 .invalid {border: 1px solid red;outline-color: red;}
 
 
-/*Mobile View for devices between 420px and 425px wide*/
-@media only screen and (min-width: 420px) and (max-width: 426px)
+/*Mobile View for devices between 410px and 425px wide*/
+@media only screen and (min-width: 410px) and (max-width: 426px)
 {
       .actions {
         position: absolute;
