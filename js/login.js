@@ -82,14 +82,14 @@ $(document).ready(function() {
       mounted() {
         // Bonus: Password Validation 
         // Can this be refactored?
-        // let element = this.$el.querySelector('#passwordcheck');
-        // element.addEventListener('blur', () => {
-        //   if (!this.isValid('passwordCheck')) {
-        //     element.classList.add('invalid');
-        //   } else {
-        //     element.classList.remove('invalid');
-        //   }
-        // });
+         //let element = this.$el.querySelector('#passwordcheck');
+         //element.addEventListener('blur', () => {
+          // if (!this.isValid('passwordCheck')) {
+          //   element.classList.add('invalid');
+           //} else {
+            // element.classList.remove('invalid');
+           //}
+         //});
       }
     };
   
